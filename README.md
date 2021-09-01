@@ -1,6 +1,6 @@
-# digitalzz-webFront-web
+# digitalzz-xxx-vue3-h5
 
-Vue3+Vant3脚手架
+vue3+ts移动端项目
 
 # 安装依赖环境
 
