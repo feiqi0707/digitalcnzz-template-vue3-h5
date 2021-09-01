@@ -1,0 +1,21 @@
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin justifyContent($val: center) {
+  display: flex;
+  justify-content: $val;
+}
+
+@mixin alignItems($val: center) {
+  display: flex;
+  align-items: $val;
+}
+
+@mixin ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}

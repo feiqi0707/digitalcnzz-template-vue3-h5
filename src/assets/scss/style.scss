@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+body {
+  font-family: SourceHanSansCN-Medium, SourceHanSansCN;
+  background-color: #f5f5f9;
+}
+
+.app-container {
+  padding-bottom: 50px;
+}
+
+.color-primary {
+  color: $primary;
+}
+
+.color-success {
+  color: $success;
+}
+
+.color-warning {
+  color: $warning;
+}
+
+.color-error {
+  color: $error;
+}
+
+.form-content {
+  .title {
+    margin: 0;
+    padding: 16px;
+    color: rgba(69, 90, 100, 0.6);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    background: rgba(245, 245, 249, 1);
+
+    .sub-title {
+      font-size: 12px;
+    }
+  }
+}
+
+.van-field--error .van-field__control,
+.van-field--error .van-field__control::placeholder {
+  color: #999999;
+}
+
+.filed-blue .van-field__right-icon .van-icon {
+  color: $primary;
+}
+
+.sz-btn {
+  width: 280px;
+  height: 46px;
+  line-height: 46px;
+  border-radius: 23px;
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 500;
+  box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 0 auto;
+  opacity: 0.5;
+}
+
+.index-btn {
+  opacity: 1 !important;
+}
+
+.danger-btn {
+  background: linear-gradient(92deg, rgba(250, 99, 63, 1) 0%, rgba(254, 58, 97, 1) 100%);
+  opacity: 1;
+}
+
+.primary-btn {
+  background: linear-gradient(92deg, rgba(93, 179, 255, 1) 0%, rgba(17, 142, 235, 1) 100%);
+}
+
+.tag-title {
+  display: inline-block;
+  width: 180px;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 0 0 90px 90px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  background: linear-gradient(311deg, rgba(255, 69, 69, 1) 0%, rgba(249, 58, 0, 1) 100%);
+  box-shadow: 0px -2px 16px -5px rgba(0, 0, 0, 0.5);
+}
+
+.van-cell {
+  align-items: center;
+}
